@@ -25,6 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   var bounds = [[0, 0], [1000, 1000]];
-  var image = L.imageOverlay('img/map.png', bounds).addTo(map);
+  var image = L.imageOverlay('img/map_optimized.jpg', bounds).addTo(map);
   map.fitBounds(bounds);
 });
